@@ -164,6 +164,7 @@ label {
   .content {
     display: grid;
     grid-template-columns: 60% 1fr;
+    align-items: center;
     width: 100vw;
     height: 100vh;
   }
@@ -178,6 +179,8 @@ label {
 
   header a img {
     margin-left: 2.5rem;
+    position: absolute;
+    top: 0.5rem;
   }
 
   .div-2 {
